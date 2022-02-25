@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <dev class="da">
-        <p>Hello World</p>
-    </dev>
+    <form action="" method="post">
+        <div class="container">
+            <h1>Registration Form</h1>
+            <p>Please fill this form to register with us</p>
+            <hr/>
+
+            <label for="fn">First Name</label>
+            <input class="container_box" type="text" name="fn" id="fn" placeholder="First Name" required>
+
+            <label for="pwd">Passord</label>
+            <input class="container_box" type="password" name="pwd" id="pwd" placeholder="Passord" required>
+
+            <label for="cpwd">Confirm Passord</label>
+            <input class="container_box" type="password" name="cpwd" id="cpwd" placeholder="Confirm Password" required>
+            <hr/>
+
+            <button class="submit_btn" type="submit">Register</button>
+        </div>
+    </form>
 </body>
 </html>
